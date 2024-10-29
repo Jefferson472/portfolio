@@ -32,6 +32,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --max-width-default: 1280px;
+  --padding-default: 2rem;
 }
 
 a {
