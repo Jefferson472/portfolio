@@ -1,3 +1,5 @@
+import Presentation from "./Sections/Presentation";
+
 export default function MainContainer() {
   return (
     <main
@@ -7,7 +9,7 @@ export default function MainContainer() {
         w-full
       "
     >
-      <div></div>
+      <Presentation></Presentation>
     </main>
   );
 }
