@@ -35,6 +35,7 @@
 
   --max-width-default: 1280px;
   --padding-default: 2rem;
+  --header-height: 5rem;
 }
 
 a {
