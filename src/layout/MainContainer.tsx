@@ -1,6 +1,5 @@
 export default function MainContainer() {
   return (
-
     <main
       className="
         min-w-full
