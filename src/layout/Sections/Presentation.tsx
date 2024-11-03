@@ -3,7 +3,7 @@ export default function Presentation() {
     <section id="presentation-section"
       className="
         flex justify-center
-        bg-red h-[calc(100vh-var(--header-height))] w-full
+        h-[calc(100vh-var(--header-height))] w-full
       "
     >
       <div className="flex flex-col justify-center w-[50%]">
