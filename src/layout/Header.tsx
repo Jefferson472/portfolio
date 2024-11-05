@@ -12,6 +12,7 @@ export default function Header() {
             <li><a href="#presentation-section">Início</a></li>
             <li>Sobre</li>
             <li><a href="#projects-section">Projetos</a></li>
+            <li><a href="#xp-section">Experiências</a></li>
             <li>Fale Comigo</li>
           </ul>
         </nav>

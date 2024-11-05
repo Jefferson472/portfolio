@@ -1,3 +1,4 @@
+import Experiences from "./Sections/Experiences";
 import Presentation from "./Sections/Presentation";
 import Projects from "./Sections/Projects";
 
@@ -12,6 +13,7 @@ export default function MainContainer() {
     >
       <Presentation></Presentation>
       <Projects></Projects>
+      <Experiences></Experiences>
     </main>
   );
 }
