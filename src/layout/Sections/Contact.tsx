@@ -1,13 +1,10 @@
-import Spacer from "../../components/Spacer";
-
 export default function Contact() {
   return (
     <>
-      <Spacer height={80}></Spacer>
       <section id="contact-section"
         className="
-          flex justify-center
-          h-[calc(100vh-(var(--padding-default)*4))] w-full
+          flex flex-col justify-center
+          h-[calc(100vh-(var(--padding-default)))] w-full
         "
       >
         <div>

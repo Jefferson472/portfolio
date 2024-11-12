@@ -5,12 +5,10 @@ export default function Projects() {
     <>
       <Spacer height={80}></Spacer>
       <section id="xp-section"
-        className="
-          flex justify-center
-          h-[calc(100vh-(var(--padding-default)*4))] w-full
-        "
+        className="h-[calc(100vh-(var(--padding-default)))] w-full"
       >
-        <div>
+        <Spacer height={80}></Spacer>
+        <div className="flex flex-col items-center">
           <h1>Experiência</h1>
           <div className="flex flex-col gap-6 mt-8 w-[60%] mx-auto">
             {Array.from({ length: 3 }).map((_, index) => (
