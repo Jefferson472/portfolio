@@ -36,15 +36,22 @@
   --max-width-default: 1280px;
   --padding-default: 2rem;
   --header-height: 5rem;
+
+  --color-primary: #3C3D40;
+  --color-secondary: #D7D7D9;
+  --color-accent: #666A73;
+  --color-dark: #222326;
+  --color-lightGray: #9FA3A6;
+  --color-contrast: #FFC107;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
-  color: #535bf2;
+  color: var(--color-contrast);
 }
 
 body {
@@ -89,7 +96,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: var(--color-contrast);
   }
   button {
     background-color: #f9f9f9;
