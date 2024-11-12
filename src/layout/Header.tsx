@@ -5,12 +5,10 @@ export default function Header() {
       max-w-[calc(var(--max-width-default)-(var(--padding-default)*2))]
       bg-primary
     ">
-      <div className="flex items-center text-xl h-[var(--header-height)]">
-        <div className="flex flex-grow justify-start"><a href="/">LOGO</a></div>
+      <div className="flex justify-end items-center text-xl h-[var(--header-height)]">
         <nav>
           <ul className="flex justify-end items-center gap-8">
             <li><a href="#presentation-section">Início</a></li>
-            <li>Sobre</li>
             <li><a href="#projects-section">Projetos</a></li>
             <li><a href="#xp-section">Experiências</a></li>
             <li>
