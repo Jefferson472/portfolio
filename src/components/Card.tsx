@@ -1,4 +1,9 @@
 import Tag from "./Tag";
+import LinkIcons from '../components/LinkIcons';
+import githubIcon from '../assets/svg/github.svg';
+import githubIconHover from '../assets/svg/github-hover.svg';
+import wwwIcon from '../assets/svg/www.svg';
+import wwwIconHover from '../assets/svg/www-hover.svg';
 
 interface ITag {
   id: number;
@@ -57,9 +62,9 @@ export default function Card() {
             {renderTags(tags)}
           </div>
         </div>
-        <div className="col-span-1 flex justify-end gap-3 w-[48px] min-w-[24px] h-8 items-center">
-          <a href=""><img src="src\assets\svg\www.svg" alt="" width="24" /></a>
-          <a href=""><img src="src\assets\svg\github.svg" alt="" width="24" /></a>
+        <div className="col-span-1 flex justify-end gap-1 w-[48px] min-w-[24px] h-8 items-center">
+          <LinkIcons url={""} icon={githubIcon} iconHover={githubIconHover} />
+          <LinkIcons url={""} icon={wwwIcon} iconHover={wwwIconHover} />
         </div>
       </div>
     </div>
