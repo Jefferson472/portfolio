@@ -11,6 +11,22 @@ export default function Projects() {
           {Array.from({ length: 5 }).map((_, index) => (
             <Card key={index} />
           ))}
+
+          <div className="max-w-80 rounded overflow-hidden shadow-lg shadow-dark flex items-center justify-center">
+            <button
+              className="px-4 py-2 
+                bg-accent 
+                text-white font-semibold text-xs
+                rounded-lg 
+                shadow-md
+                hover:bg-contrast hover:border-contrast
+                focus:outline-none focus:ring-2 focus:ring-accent focus:ring-opacity-75 
+                transition duration-200 "
+              onClick={() => window.location.href = '/veja-mais'}
+            >
+              Ver Mais
+            </button>
+          </div>
         </div>
       </div>
     </section>
