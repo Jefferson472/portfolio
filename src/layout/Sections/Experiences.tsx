@@ -9,7 +9,7 @@ export default function Projects() {
       >
         <Spacer height={80}></Spacer>
         <div className="flex flex-col items-center">
-          <h1>Experiência</h1>
+          <h2 className="text-4xl font-semibold mb-4 text-center">Experiência</h2>
           <div className="flex flex-col gap-6 mt-8 w-[60%] mx-auto">
             {Array.from({ length: 3 }).map((_, index) => (
               <div className="flex gap-3">
