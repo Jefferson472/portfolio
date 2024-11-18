@@ -12,10 +12,12 @@ export default function MainContainer() {
         w-full
       "
     >
-      <Presentation></Presentation>
-      <Projects></Projects>
-      <Experiences></Experiences>
-      <Contact></Contact>
+      <div className="max-w-[1280px] m-auto">
+        <Presentation></Presentation>
+        <Projects></Projects>
+        <Experiences></Experiences>
+        <Contact></Contact>
+      </div>
     </main>
   );
 }
