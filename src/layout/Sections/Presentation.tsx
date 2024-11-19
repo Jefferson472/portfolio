@@ -1,19 +1,30 @@
 export default function Presentation() {
   return (
-    <section id="presentation-section"
+    <section
+      id="presentation-section"
       className="
-        flex justify-center
-        h-[calc(100vh-var(--header-height))] w-full
+        flex items-center justify-around
+        h-[calc(100vh-var(--header-height))] w-full px-20
       "
     >
-      <div className="flex flex-col justify-center w-[50%]">
-        <h1>Jefferson Miranda</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis orci a porta eleifend. Vivamus ultrices convallis justo, at dictum erat consectetur quis. Nullam nec aliquet lacus. Nullam ultricies nulla dolor, eget blandit lorem scelerisque eu. In hac habitasse platea dictumst. Nullam accumsan arcu vel auctor dapibus. Nulla convallis risus a lacus pellentesque viverra. In nec nunc sed velit placerat mollis.</p>
+      <div className="flex flex-col justify-center w-[55%]">
+        <h1 className="text-4xl font-bold mb-4">
+          Olá, eu sou <span className="text-contrast">Jefferson Miranda</span>
+        </h1>
+        <p className="text-lg  leading-relaxed">
+          Sou desenvolvedor especializado em Python, .NET, Node.js e AWS. 
+          Apaixonado por tecnologia e sempre em busca de novos desafios para criar soluções inovadoras e escaláveis. 
+          Explore meu portfólio para conhecer mais sobre meu trabalho.
+        </p>
       </div>
 
-      <div className="flex items-center w-[25%]">
-        <img className="rounded-full shadow-lg" src="src\assets\img\jefferson-profile.png" />
+      <div className="w-[35%] flex justify-center">
+        <img
+          className="rounded-full border-contrast border-2 max-w-[250px]"
+          src="src/assets/img/jefferson-profile.png"
+          alt="Jefferson Miranda"
+        />
       </div>
     </section>
-  )
+  );
 }

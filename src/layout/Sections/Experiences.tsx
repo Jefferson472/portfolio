@@ -8,7 +8,7 @@ export default function Projects() {
         className="h-[calc(100vh-(var(--padding-default)))] w-full"
       >
         <Spacer height={80}></Spacer>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center justify-between h-[calc(100vh-var(--header-height))] pb-4">
           <h2 className="text-4xl font-semibold mb-4 text-center">Experiência</h2>
           <div className="flex flex-col gap-6 mt-8 w-[60%] mx-auto">
             {Array.from({ length: 3 }).map((_, index) => (

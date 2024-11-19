@@ -1,16 +1,15 @@
+import Spacer from "../../components/Spacer";
+
 export default function Contact() {
   return (
     <>
-      <section id="contact-section"
-        className="
-          flex flex-col justify-center
-          h-[calc(100vh-(var(--padding-default)))] w-full
-        "
-      >
-        <div>
+      <Spacer height={80}></Spacer>
+      <section id="contact-section">
+        <Spacer height={80}></Spacer>
+        <div className="flex flex-col items-center h-[calc(100vh-var(--header-height))] pb-4">
           <h2 className="text-4xl font-semibold mb-4 text-center">Fale Comigo</h2>
 
-          <form className="space-y-6 w-[32rem] max-w-lg mx-auto">
+          <form className="space-y-6 w-[32rem] max-w-lg mx-auto flex-1 content-center">
             <div>
               <label htmlFor="name" className="sr-only">Nome</label>
               <input
