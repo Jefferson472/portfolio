@@ -41,7 +41,7 @@ export default function Card() {
   };
 
   return (
-    <div className="max-w-80 rounded overflow-hidden shadow-lg shadow-dark">
+    <div className="max-w-80 rounded overflow-hidden shadow-md shadow-accent bg-primary">
       <div className="px-6 py-4">
         <h2 className="text-start font-bold text-xl mb-2">Nome do Projeto</h2>
         <div className="flex flex-col gap-3">

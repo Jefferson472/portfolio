@@ -33,7 +33,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --max-width-default: 1280px;
+  --max-width-default: 100vw;
   --padding-default: 2rem;
   --header-height: 5rem;
 
@@ -43,6 +43,8 @@
   --color-dark: #222326;
   --color-lightGray: #9FA3A6;
   --color-contrast: #FFC107;
+
+  --background-color: var(--color-dark);
 }
 
 a {
@@ -55,6 +57,8 @@ a:hover {
 }
 
 body {
+  background-color: var(--background-color);
+  color: white;
   margin: 0;
   display: flex;
   place-items: center;

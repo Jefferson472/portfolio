@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-primary text-white
-}
 
 #root {
   max-width: var(--max-width-default);
