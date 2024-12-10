@@ -3,10 +3,18 @@ export default function Presentation() {
     <section
       id="presentation-section"
       className="
-        flex items-center justify-around
-        h-[calc(100vh-var(--header-height))] w-full px-20
+        flex flex-col items-center justify-center gap-10
+        h-[100vh] w-full px-20
       "
     >
+      <div className="w-[35%] flex justify-center">
+        <img
+          className="rounded-full border-contrast border-2 max-w-[250px] shadow-lg shadow-accent"
+          src="src/assets/img/jefferson-profile.png"
+          alt="Jefferson Miranda"
+        />
+      </div>
+
       <div className="flex flex-col justify-center w-[55%]">
         <h1 className="text-4xl font-bold mb-4">
           Olá, eu sou <span className="text-contrast">Jefferson Miranda</span>
@@ -18,13 +26,7 @@ export default function Presentation() {
         </p>
       </div>
 
-      <div className="w-[35%] flex justify-center">
-        <img
-          className="rounded-full border-contrast border-2 max-w-[250px] shadow-lg shadow-accent"
-          src="src/assets/img/jefferson-profile.png"
-          alt="Jefferson Miranda"
-        />
-      </div>
+
     </section>
   );
 }
