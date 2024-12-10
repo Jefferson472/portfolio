@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+body, header {
+  @apply bg-gradient-to-r from-primary via-dark to-dark;
+}
+
 #root {
   max-width: var(--max-width-default);
   width: 100%;
