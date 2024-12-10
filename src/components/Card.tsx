@@ -41,12 +41,12 @@ export default function Card() {
   };
 
   return (
-    <div className="max-w-80 rounded overflow-hidden shadow-md shadow-accent bg-primary">
-      <div className="px-6 py-4">
-        <h2 className="text-start font-bold text-xl mb-2">Nome do Projeto</h2>
-        <div className="flex flex-col gap-3">
-          <img src="src\assets\img\generic-image.webp" alt="" />
-          <p className="text-xs">
+    <div className="max-w-80 rounded overflow-hidden shadow-sm shadow-accent bg-primary">
+      <img src="src\assets\img\generic-image.webp" alt="" width={320} height={213}/>
+      <div className="px-4 py-2">
+        <div className="flex flex-col">
+          <h2 className="text-start font-bold text-xl mb-2">Nome do Projeto</h2>
+          <p className="text-start text-xs">
             Esta é uma breve descrição do conteúdo do card. Você pode colocar qualquer texto aqui para descrever o que o card representa.
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function Card() {
         <div className="w-[90%] border-t-[0.1px]"></div>
       </div>
 
-      <div className="grid grid-cols-4 gap-3 px-6 py-2">
+      <div className="grid grid-cols-4 gap-3 px-4 py-1">
         <div className="col-span-3 content-center">
           <div className="flex gap-1">
             {renderTags(tags)}
