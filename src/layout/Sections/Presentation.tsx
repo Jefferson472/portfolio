@@ -15,18 +15,16 @@ export default function Presentation() {
         />
       </div>
 
-      <div className="flex flex-col justify-center w-[55%]">
-        <h1 className="text-4xl font-bold mb-4">
+      <div className="flex flex-col justify-center w-[60%]">
+        <h1 className="text-4xl text-start mb-2">
           Olá, eu sou <span className="text-contrast">Jefferson Miranda</span>
         </h1>
-        <p className="text-lg  leading-relaxed">
+        <p className="text-start">
           Sou desenvolvedor especializado em Python, .NET, Node.js e AWS. 
           Apaixonado por tecnologia e sempre em busca de novos desafios para criar soluções inovadoras e escaláveis. 
           Explore meu portfólio para conhecer mais sobre meu trabalho.
         </p>
       </div>
-
-
     </section>
   );
 }

@@ -44,6 +44,17 @@
   --color-lightGray: #9FA3A6;
   --color-contrast: #FFC107;
 
+  --ff: Poppins, sans-serif;
+  --h1: bold 1.125rem/1.4em var(--ff);
+  --h1: bold 1rem/1.4em var(--ff);
+  --p: 1rem/1.4em var(--ff);
+  --p2: .875rem/1.4em var(--ff);
+  --pxs: .75rem/1.4em var(--ff);
+
+  --gray100: hsl(0, 0%, 100%);
+  --gray70: hsl(0, 0%, 70%);
+  --gray0: hsl(0, 0%, 0%);
+
   --background-color: var(--color-dark);
 }
 
@@ -70,11 +81,6 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -84,18 +90,41 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: transform 0.3s ease-in-out;
 }
 button:hover {
-  border-color: #646cff;
+  transform: scale(1.05);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+h1 {
+  font: var(--h1);
+}
+
+h2 {
+  font: var(--h2);
+}
+
+p {
+  font: var(--p);
+  color: var(--gray100);
+}
+
 section {
   scroll-snap-align: start;
+}
+
+.text-secondary {
+  font: var(--p2);
+  color: var(--gray70);
+}
+
+.text-small {
+  font: var(--pxs);
+  color: var(--gray70);
 }
 
 .text-start {

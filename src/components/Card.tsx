@@ -45,8 +45,8 @@ export default function Card() {
       <img src="src\assets\img\generic-image.webp" alt="" width={320} height={213}/>
       <div className="px-4 py-2">
         <div className="flex flex-col">
-          <h2 className="text-start font-bold text-xl mb-2">Nome do Projeto</h2>
-          <p className="text-start text-xs">
+          <h2 className="text-start mb-2">Nome do Projeto</h2>
+          <p className="text-start text-small">
             Esta é uma breve descrição do conteúdo do card. Você pode colocar qualquer texto aqui para descrever o que o card representa.
           </p>
         </div>

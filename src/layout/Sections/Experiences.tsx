@@ -30,9 +30,9 @@ export default function Projects() {
                 </div>
 
                 <div className="flex flex-col justify-start items-start ml-5 text-justify">
-                  <h2 className="font-bold text-xl">Nome do Cargo</h2>
-                  <h3 className="">Nome da Empresa</h3>
-                  <p className="text-xs">
+                  <h2 className="">Nome do Cargo</h2>
+                  <p className="">Nome da Empresa</p>
+                  <p className="text-small">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at blandit lacus. Donec ac aliquet velit, sed mattis turpis. Aliquam at elementum metus. In volutpat luctus felis, vitae pharetra purus ullamcorper egestas. In volutpat blandit ante vel malesuada. Etiam auctor, libero ornare ultricies ultricies, turpis odio auctor nunc, sed consequat felis enim eget erat. Etiam viverra eros tristique risus placerat pulvinar. Fusce vulputate auctor risus, vitae tristique dui. Fusce diam metus, viverra ut sem non, tincidunt auctor turpis. Donec vel massa at mi interdum mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eleifend felis non tellus imperdiet placerat. Pellentesque commodo orci at velit molestie, a dignissim elit dignissim.
                   </p>
                 </div>
