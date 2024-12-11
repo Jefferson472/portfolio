@@ -12,7 +12,7 @@ export default function Header() {
             <li><a href="#projects-section">Projetos</a></li>
             <li><a href="#xp-section">Experiências</a></li>
             <li>
-              <a href="#contact-section" className="                
+              <a href="#contact-section" className="
                 inline-block 
                 px-4 py-2 
                 bg-contrast 
