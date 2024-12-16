@@ -3,10 +3,9 @@ import Spacer from "../../components/Spacer";
 export default function Contact() {
   return (
     <>
-      <Spacer height={80}></Spacer>
+      <Spacer height={160}></Spacer>
       <section id="contact-section">
-        <Spacer height={80}></Spacer>
-        <div className="flex flex-col items-center h-[calc(100vh-var(--header-height))] pb-4">
+        <div className="flex flex-col items-center min-h-[calc(100vh-var(--header-height)-32px)] pb-4">
           <h2 className="text-4xl font-semibold mb-4 text-center">Fale Comigo</h2>
 
           <form className="space-y-6 w-full max-w-lg mx-auto flex-1 content-center">

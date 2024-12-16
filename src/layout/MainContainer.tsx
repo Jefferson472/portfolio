@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Contact from "./Sections/Contact";
 import Experiences from "./Sections/Experiences";
 import Presentation from "./Sections/Presentation";
@@ -17,6 +18,7 @@ export default function MainContainer() {
         <Projects></Projects>
         <Experiences></Experiences>
         <Contact></Contact>
+        <Footer></Footer>
       </div>
     </main>
   );
