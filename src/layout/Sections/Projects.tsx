@@ -3,16 +3,16 @@ import Spacer from "../../components/Spacer";
 
 export default function Projects() {
   return (
-    <section id="projects-section">
+    <section id="projects-section" className="sm:px-[40px]">
       <Spacer height={80}></Spacer>
-      <div className="flex flex-col items-center justify-between h-[calc(100vh-var(--header-height))] pb-4">
+      <div className="flex flex-col items-center justify-between pb-4">
         <h2 className="text-4xl font-semibold mb-4 text-center">Meus Projetos</h2>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="flex flex-wrap justify-center w-full gap-5">
           {Array.from({ length: 5 }).map((_, index) => (
             <Card key={index} />
           ))}
 
-          <div className="max-w-80 rounded overflow-hidden shadow-lg shadow-dark flex items-center justify-center">
+          <div className="w-80 max-w-80 rounded overflow-hidden flex items-center justify-end lg:justify-center">
             <button
               className="px-4 py-2 
                 bg-accent 
@@ -21,7 +21,7 @@ export default function Projects() {
                 shadow-md
                 hover:bg-contrast hover:border-contrast
                 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-opacity-75 
-                transition duration-200 "
+                transition duration-200"
               onClick={() => window.location.href = '/veja-mais'}
             >
               Ver Mais

@@ -38,8 +38,8 @@ export default function Header() {
       <div className="flex sm:hidden justify-end">
         <div id="hamburguer" onClick={toggleMenu}>
           <svg xmlns="http://www.w3.org/2000/svg" 
-            height="64px" 
-            width="64px" 
+            height="48px" 
+            width="48px" 
             viewBox="0 -960 960 960" 
             fill="#D7D7D9"
           >

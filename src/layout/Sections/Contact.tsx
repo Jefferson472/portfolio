@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="flex flex-col items-center h-[calc(100vh-var(--header-height))] pb-4">
           <h2 className="text-4xl font-semibold mb-4 text-center">Fale Comigo</h2>
 
-          <form className="space-y-6 w-[32rem] max-w-lg mx-auto flex-1 content-center">
+          <form className="space-y-6 w-full max-w-lg mx-auto flex-1 content-center">
             <div>
               <label htmlFor="name" className="sr-only">Nome</label>
               <input

@@ -46,7 +46,7 @@
 
   --ff: Poppins, sans-serif;
   --h1: bold 1.125rem/1.4em var(--ff);
-  --h1: bold 1rem/1.4em var(--ff);
+  --h2: bold 1rem/1.4em var(--ff);
   --p: 1rem/1.4em var(--ff);
   --p2: .875rem/1.4em var(--ff);
   --pxs: .75rem/1.4em var(--ff);
@@ -110,10 +110,6 @@ p {
   color: var(--gray100);
 }
 
-section {
-  scroll-snap-align: start;
-}
-
 .text-secondary {
   font: var(--p2);
   color: var(--gray70);
@@ -128,15 +124,15 @@ section {
   text-align: start;
 }
 
-@media (prefers-color-scheme: light) {
+
+@media (min-width: 1200px) {
+  section {
+    scroll-snap-align: start;
+  }
+}
+
+@media (max-width: 560px) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: var(--color-contrast);
-  }
-  button {
-    background-color: #f9f9f9;
+    --padding-default: 1rem;
   }
 }

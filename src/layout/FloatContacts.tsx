@@ -16,7 +16,8 @@ export default function FloatContacts() {
       w-8      
     ">
       <div className="
-        flex items-end
+        hidden
+        sm:flex items-end
         h-full
       ">
         <div className="flex flex-col gap-3 items-center">
