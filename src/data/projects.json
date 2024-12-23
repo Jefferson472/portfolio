@@ -1,13 +1,79 @@
 [
   {
-    "id": 0,
-    "name": "",
-    "short_description": "",
-    "image": "",
-    "tags": [],
+    "id": 1,
+    "name": "Jogos de Quinta - Web Wordpress",
+    "short_description": "Web-Wordpress é um site de notícias de promoções e é a ponta final do ecossistema do Jogos de Quinta",
+    "image": "https://private-user-images.githubusercontent.com/43066724/398139796-806a90d9-d316-47cd-818d-2751e06ca462.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ5NTE0NDYsIm5iZiI6MTczNDk1MTE0NiwicGF0aCI6Ii80MzA2NjcyNC8zOTgxMzk3OTYtODA2YTkwZDktZDMxNi00N2NkLTgxOGQtMjc1MWUwNmNhNDYyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIzVDEwNTIyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIyYjZlZTIyYjFiNDljMWU2NDhjODVhM2YzYmI1ZTU5YWE2NmJjY2M2MzA0N2RmODkwNjEyNWIyYzQ0NGI2ZGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-M42JyaoeCQhfhqoCLCfFADHqt5yQGTDPrJx99te2UM",
+    "tags": ["wordpress", "php", "html", "css", "javascript"],
     "links": {
-      "github": "",
-      "website": ""
+      "github": "https://github.com/JogosDeQuinta/web-wordpress",
+      "website": "https://jogosdequinta.com.br/"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jogos de Quinta - API",
+    "short_description": "API desenvolvida em Python utilizando Django Rest Framework para fornecer dados e funcionalidades para o ecossistema do Jogos de Quinta",
+    "image": "https://private-user-images.githubusercontent.com/43066724/398141740-02966b91-c4c9-4da0-ad56-9bbe79881f02.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ5NTE5NjksIm5iZiI6MTczNDk1MTY2OSwicGF0aCI6Ii80MzA2NjcyNC8zOTgxNDE3NDAtMDI5NjZiOTEtYzRjOS00ZGEwLWFkNTYtOWJiZTc5ODgxZjAyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIzVDExMDEwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUxNWVmZmQwNjAyYjQ3NzdiZTI4NWI3NTY1ZjU4ZjJiNTljMWMwYjY5ZTZmZTU0YTVmMzMxNzE4ZjQzNDg5YTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JggunNQvAZqy89war1SCIkJH92M_apsVZeNVTXKzIMg",
+    "tags": ["python", "django", "api", "dockerfile"],
+    "links": {
+      "github": "https://github.com/JogosDeQuinta/api",
+      "website": "https://api.jogosdequinta.com.br/api/v1"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Jogos de Quinta - Api Manager",
+    "short_description": "Responsável por gerenciar a API do Jogos de Quinta, fornecendo dados e funcionalidades para o ecossistema do Jogos de Quinta",
+    "image": null,
+    "tags": ["python", "shell", "ubuntu"],
+    "links": {
+      "github": "https://github.com/JogosDeQuinta/api-manager",
+      "website": null
+    }
+  },
+  {
+    "id": 4,
+    "name": "Jogos de Quinta - Make Artigos",
+    "short_description": "Cria artigos para o Wordpress do Jogos de Quinta com base nos dados fornecidos pela API",
+    "image": null,
+    "tags": ["python", "shell", "html", "wordpress-api"],
+    "links": {
+      "github": "https://github.com/JogosDeQuinta/make-artigos",
+      "website": null
+    }
+  },
+  {
+    "id": 5,
+    "name": "React Markdown Editor",
+    "short_description": "Projeto desenvolvido para aprendizado de React",
+    "image": "https://private-user-images.githubusercontent.com/43066724/398146299-81b86e8f-00a6-4d1d-8481-9743d23a58b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ5NTMyNDMsIm5iZiI6MTczNDk1Mjk0MywicGF0aCI6Ii80MzA2NjcyNC8zOTgxNDYyOTktODFiODZlOGYtMDBhNi00ZDFkLTg0ODEtOTc0M2QyM2E1OGIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIzVDExMjIyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3YmYwZTBlZGUxYWNkYzAyYjM5YTBlM2Q3MTRmZDk3ODA3YzI4ODZiMGMxOGRmMGIzM2U1ZTcyYTM2OTM3M2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.CJqt4bnXYR34q6_SfODELcKbfOfGieSk5cmBWQ2sxI4",
+    "tags": ["react", "javascript", "typescript", "netlify"],
+    "links": {
+      "github": "https://github.com/Jefferson472/react-markdown-editor",
+      "website": "https://app-markdown-editor.netlify.app"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Alura Receita",
+    "short_description": "App para cadastro de receitas desenvolvido em Django",
+    "image": "https://private-user-images.githubusercontent.com/43066724/398147682-0573ddb4-34d3-4366-a4e3-9d5109d53a04.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ5NTM3NjMsIm5iZiI6MTczNDk1MzQ2MywicGF0aCI6Ii80MzA2NjcyNC8zOTgxNDc2ODItMDU3M2RkYjQtMzRkMy00MzY2LWE0ZTMtOWQ1MTA5ZDUzYTA0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIzVDExMzEwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjZDg2ZWE0NmQwYWRiYzQwOGM2NTlhZTU0YTViNTI5ZWQ1YTczYTFmMTg0NjJhZWZlYTkyYTQ5MzIyYWYyNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.rFhUSmR9Lhhb79_EeABMttxmrszHjSOLfHMPzT0-O2s",
+    "tags": ["python", "django", "render"],
+    "links": {
+      "github": "https://github.com/Jefferson472/alura-receita",
+      "website": "https://alura-receita.onrender.com/"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Django Ecommerce",
+    "short_description": "Projeto de loja online criado para estudo do livro Django By Examples do Antonio Melé",
+    "image": "",
+    "tags": ["python", "ecommerce", "django"],
+    "links": {
+      "github": "https://github.com/Jefferson472/django-ecommerce",
+      "website": "https://django-ecommerce-jjaa.onrender.com/"
     }
   }
 ]
