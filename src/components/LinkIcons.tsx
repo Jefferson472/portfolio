@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 interface ILinkIcons {
-  url: string,
+  url: string | null,
   icon: string,
   iconHover: string
 }
@@ -11,14 +11,14 @@ export default function LinkIcons({url, icon, iconHover}: ILinkIcons) {
 
   return (
     <a
-      href={url}
+      href={url ? url : '#'}
       target="_blank"
       rel="noopener noreferrer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
-        src={isHovered ? iconHover : icon}
+        src={url === null ? icon : (isHovered ? iconHover : icon)}
         className="w-full h-full"
       />
     </a>

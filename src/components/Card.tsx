@@ -5,36 +5,33 @@ import githubIconHover from '../assets/svg/github-hover.svg';
 import wwwIcon from '../assets/svg/www.svg';
 import wwwIconHover from '../assets/svg/www-hover.svg';
 
-interface ITag {
+interface IProject {
   id: number;
   name: string;
-}
+  short_description: string;
+  image: string | null;
+  tags: Array<string>;
+  links: {
+    github: string | null;
+    website: string | null;
+  }
+};
 
-export default function Card() {
-  const tags: ITag[] = [
-    { id: 1, name: "Python" },
-    { id: 2, name: "React" },
-    { id: 4, name: "HTML" },
-    { id: 3, name: "CSS" },
-    { id: 3, name: "CSS" },
-    { id: 3, name: "CSS" },
-    { id: 3, name: "CSS" },
-  ];
-
-  const renderTags = (tags: ITag[]) => {
+export default function Card({ project }: { project: IProject }) {
+  const renderTags = (tags: string[]) => {
     const MAX_CARACT = 15;
     let tagCaractLen = 0;
     const renderedTags = [];
 
     for (const tag of tags) {
-      tagCaractLen += tag.name.length;
+      tagCaractLen += tag.length;
 
       if (tagCaractLen >= MAX_CARACT) {
         renderedTags.push(Tag(`+${tags.length - renderedTags.length}`));
         break;
       }
 
-      renderedTags.push(Tag(tag.name));
+      renderedTags.push(Tag(tag));
     }
 
     return renderedTags;
@@ -42,12 +39,12 @@ export default function Card() {
 
   return (
     <div className="max-w-80 rounded overflow-hidden shadow-sm shadow-accent bg-primary">
-      <img src="src\assets\img\generic-image.webp" alt="" width={320} height={213}/>
+      <img src={project.image ? project.image : 'src\\assets\\img\\generic-image.webp'} alt="" width={320} height={213}/>
       <div className="px-4 py-2">
         <div className="flex flex-col">
-          <h2 className="text-start mb-2">Nome do Projeto</h2>
+          <h2 className="text-start mb-2">{project.name}</h2>
           <p className="text-start text-small">
-            Esta é uma breve descrição do conteúdo do card. Você pode colocar qualquer texto aqui para descrever o que o card representa.
+            {project.short_description}
           </p>
         </div>
       </div>
@@ -59,13 +56,22 @@ export default function Card() {
       <div className="grid grid-cols-4 gap-3 px-4 py-1">
         <div className="col-span-3 content-center">
           <div className="flex gap-1">
-            {renderTags(tags)}
+            {renderTags(project.tags)}
           </div>
         </div>
         <div className="col-span-1 flex justify-end gap-1 w-[48px] min-w-[24px] h-8 items-center">
-          <LinkIcons url={""} icon={githubIcon} iconHover={githubIconHover} />
-          <LinkIcons url={""} icon={wwwIcon} iconHover={wwwIconHover} />
+          {project.links.github && (
+            <div className="flex-shrink-0 h-[22px]">
+              <LinkIcons url={project.links.github} icon={githubIcon} iconHover={githubIconHover} />
+            </div>
+          )}
+          {project.links.website && (
+            <div className="flex-shrink-0 h-[22px]">
+              <LinkIcons url={project.links.website} icon={wwwIcon} iconHover={wwwIconHover} />
+            </div>
+          )}
         </div>
+
       </div>
     </div>
   )
