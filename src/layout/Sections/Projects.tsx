@@ -1,5 +1,6 @@
 import Card from "../../components/Card";
 import Spacer from "../../components/Spacer";
+import projects from '../../data/projects.json';
 
 export default function Projects() {
   return (
@@ -8,11 +9,12 @@ export default function Projects() {
       <div className="flex flex-col items-center justify-between pb-4">
         <h2 className="text-4xl font-semibold mb-4 text-center">Meus Projetos</h2>
         <div className="flex flex-wrap justify-center w-full gap-5">
-          {Array.from({ length: 5 }).map((_, index) => (
-            <Card key={index} />
+          {projects.slice(0, 6).map((project, i) => (
+            <Card key={i} project={project} />
           ))}
 
-          <div className="w-80 max-w-80 rounded overflow-hidden flex items-center justify-end lg:justify-center">
+          {/* TODO: Implementar seção ver mais */}
+          {/* <div className="w-80 max-w-80 rounded overflow-hidden flex items-center justify-end lg:justify-center">
             <button
               className="px-4 py-2 
                 bg-accent 
@@ -26,7 +28,7 @@ export default function Projects() {
             >
               Ver Mais
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
