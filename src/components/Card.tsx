@@ -39,7 +39,9 @@ export default function Card({ project }: { project: IProject }) {
 
   return (
     <div className="flex flex-col justify-between max-w-80 rounded overflow-hidden shadow-sm shadow-accent bg-primary">
-      <img src={project.image ? project.image : 'src\\assets\\img\\generic-image.webp'} alt="" width={320} height={213}/>
+      <div className="w-[320px] h-[213px] overflow-hidden object-fill">
+        <img className="w-full h-full" src={project.image ? project.image : 'src\\assets\\img\\generic-image.webp'} alt=""/>
+      </div>
       <div className="px-4 py-2">
         <div className="flex flex-col">
           <h2 className="text-start mb-2">{project.name}</h2>
