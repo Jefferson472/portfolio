@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Jogos de Quinta - Web Wordpress",
     "short_description": "Web-Wordpress é um site de notícias de promoções e é a ponta final do ecossistema do Jogos de Quinta",
-    "image": "https://private-user-images.githubusercontent.com/43066724/398139796-806a90d9-d316-47cd-818d-2751e06ca462.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ5NTE0NDYsIm5iZiI6MTczNDk1MTE0NiwicGF0aCI6Ii80MzA2NjcyNC8zOTgxMzk3OTYtODA2YTkwZDktZDMxNi00N2NkLTgxOGQtMjc1MWUwNmNhNDYyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIzVDEwNTIyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIyYjZlZTIyYjFiNDljMWU2NDhjODVhM2YzYmI1ZTU5YWE2NmJjY2M2MzA0N2RmODkwNjEyNWIyYzQ0NGI2ZGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-M42JyaoeCQhfhqoCLCfFADHqt5yQGTDPrJx99te2UM",
+    "image": "https://raw.githubusercontent.com/Jefferson472/bucket/refs/heads/main/portfolio/398139796-806a90d9-d316-47cd-818d-2751e06ca462.png",
     "tags": ["wordpress", "php", "html", "css", "javascript"],
     "links": {
       "github": "https://github.com/JogosDeQuinta/web-wordpress",
@@ -14,7 +14,7 @@
     "id": 2,
     "name": "Jogos de Quinta - API",
     "short_description": "API desenvolvida em Python utilizando Django Rest Framework para fornecer dados e funcionalidades para o ecossistema do Jogos de Quinta",
-    "image": "https://private-user-images.githubusercontent.com/43066724/398141740-02966b91-c4c9-4da0-ad56-9bbe79881f02.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ5NTE5NjksIm5iZiI6MTczNDk1MTY2OSwicGF0aCI6Ii80MzA2NjcyNC8zOTgxNDE3NDAtMDI5NjZiOTEtYzRjOS00ZGEwLWFkNTYtOWJiZTc5ODgxZjAyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIzVDExMDEwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUxNWVmZmQwNjAyYjQ3NzdiZTI4NWI3NTY1ZjU4ZjJiNTljMWMwYjY5ZTZmZTU0YTVmMzMxNzE4ZjQzNDg5YTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JggunNQvAZqy89war1SCIkJH92M_apsVZeNVTXKzIMg",
+    "image": "https://github.com/Jefferson472/bucket/blob/main/portfolio/398141740-02966b91-c4c9-4da0-ad56-9bbe79881f02.png?raw=true",
     "tags": ["python", "django", "api", "dockerfile"],
     "links": {
       "github": "https://github.com/JogosDeQuinta/api",
@@ -47,7 +47,7 @@
     "id": 5,
     "name": "React Markdown Editor",
     "short_description": "Projeto desenvolvido para aprendizado de React",
-    "image": "https://private-user-images.githubusercontent.com/43066724/398146299-81b86e8f-00a6-4d1d-8481-9743d23a58b2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ5NTMyNDMsIm5iZiI6MTczNDk1Mjk0MywicGF0aCI6Ii80MzA2NjcyNC8zOTgxNDYyOTktODFiODZlOGYtMDBhNi00ZDFkLTg0ODEtOTc0M2QyM2E1OGIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIzVDExMjIyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3YmYwZTBlZGUxYWNkYzAyYjM5YTBlM2Q3MTRmZDk3ODA3YzI4ODZiMGMxOGRmMGIzM2U1ZTcyYTM2OTM3M2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.CJqt4bnXYR34q6_SfODELcKbfOfGieSk5cmBWQ2sxI4",
+    "image": "https://github.com/Jefferson472/bucket/blob/main/portfolio/398146299-81b86e8f-00a6-4d1d-8481-9743d23a58b2.png?raw=true",
     "tags": ["react", "javascript", "typescript", "netlify"],
     "links": {
       "github": "https://github.com/Jefferson472/react-markdown-editor",
@@ -58,7 +58,7 @@
     "id": 6,
     "name": "Alura Receita",
     "short_description": "App para cadastro de receitas desenvolvido em Django",
-    "image": "https://private-user-images.githubusercontent.com/43066724/398147682-0573ddb4-34d3-4366-a4e3-9d5109d53a04.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ5NTM3NjMsIm5iZiI6MTczNDk1MzQ2MywicGF0aCI6Ii80MzA2NjcyNC8zOTgxNDc2ODItMDU3M2RkYjQtMzRkMy00MzY2LWE0ZTMtOWQ1MTA5ZDUzYTA0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIzVDExMzEwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjZDg2ZWE0NmQwYWRiYzQwOGM2NTlhZTU0YTViNTI5ZWQ1YTczYTFmMTg0NjJhZWZlYTkyYTQ5MzIyYWYyNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.rFhUSmR9Lhhb79_EeABMttxmrszHjSOLfHMPzT0-O2s",
+    "image": "https://github.com/Jefferson472/bucket/blob/main/portfolio/398147682-0573ddb4-34d3-4366-a4e3-9d5109d53a04.png?raw=true",
     "tags": ["python", "django", "render"],
     "links": {
       "github": "https://github.com/Jefferson472/alura-receita",
