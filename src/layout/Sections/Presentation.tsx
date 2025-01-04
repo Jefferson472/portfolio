@@ -10,7 +10,7 @@ export default function Presentation() {
       <div className="w-[35%] flex justify-center">
         <img
           className="rounded-full border-contrast border-2 max-w-[250px] shadow-lg shadow-accent"
-          src="src/assets/img/jefferson-profile.png"
+          src="https://github.com/Jefferson472.png"
           alt="Jefferson Miranda"
         />
       </div>
