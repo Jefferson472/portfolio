@@ -1,9 +1,32 @@
 [
   {
-    "id": 0,
-    "name": "",
-    "company": "",
-    "description": "",
-    "year": ""
+    "id": 1,
+    "name": "Coordenador de infraestrutura",
+    "company": "JLL",
+    "workload": "Tempo integral",
+    "description": "Responsável por coordenar equipe terceira de infraestrutura e facilities, em manutenção de ambiente de missão crítica, lidando com assets (nobreaks, equipamentos de ar-condicionado, BMS e pre-action, boilers e geradores). Atuação técnica e administrativa, para gestão e controle de custos, reportes, pagamentos, etc. Colaborar com melhorias nos sites, conforme a necessidade.",
+    "start": "2021-07-01",
+    "end": "2023-06-01",
+    "stack": ["Python", "Django", "HTML", "CSS", "JavaScript", "Bootstrap", "Git"]
+  },
+  {
+    "id": 2,
+    "name": "Desenvolvedor Python e Django",
+    "company": "Freelance",
+    "workload": null,
+    "description": "Nesta plataforma estou tendo a oportunidade de testar os meus conhecimentos para o mercado profissional trabalhando em projetos reais e modernos. Atuo implementando novas funções e efetuando manutenções de aplicações desenvolvidas em Python e Django.",
+    "start": "2022-01-01",
+    "end": null,
+    "stack": ["Python", "Django", "HTML", "CSS", "JavaScript", "Bootstrap", "Git"]
+  },
+  {
+    "id": 3,
+    "name": "Desenvolvedor de software Jr.",
+    "company": "B2e Group",
+    "workload": "Tempo integral",
+    "description": "Na B2e Group, como Desenvolvedor de Software Jr., tenho trabalhado com .NET, Node.js e arquiteturas de microserviços, utilizando AWS. Além das correções rotineiras e pequenas features, também participei da implementação de uma API para o sistema de Backoffice, além de otimizar a performance de algumas queries com técnicas de Bulk Insert e Update em bancos SQLServer e PostgreSQL. Minha experiência também inclui colaboração no planejamento e distribuição de tarefas, permitindo um crescimento técnico e uma melhor compreensão da organização de projetos em equipe.",
+    "start": "2023-06-01",
+    "end": null,
+    "stack": [".Net", "AWS", "Node.js", "SQL", "Microservices", "Git", "Docker", "PostgreSQL", "SQLServer", "C#", "JavaScript"]
   }
 ]
