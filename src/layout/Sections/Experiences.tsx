@@ -38,7 +38,8 @@ export default function Projects() {
                 </div>
               </div>
             ))}
-            <div className="flex justify-end w-full">
+            {/* TODO: Implementar tela de ver mais experiências */}
+            {/* <div className="flex justify-end w-full">
               <button className="
                 px-4 py-2 
                 bg-accent 
@@ -51,7 +52,7 @@ export default function Projects() {
               ">
                 Ver Mais
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
