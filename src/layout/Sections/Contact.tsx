@@ -20,10 +20,10 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs.send(
-      import.meta.env.EMAILJS_SERVICE_ID,
-      import.meta.env.EMAILJS_TEMPLATE_ID,
+      process.env.EMAILJS_SERVICE_ID || '',
+      process.env.EMAILJS_TEMPLATE_ID || '',
       formData,
-      import.meta.env.EMAILJS_USER_ID
+      process.env.EMAILJS_USER_ID || ''
     ).then((result) => {
       console.log(result.text);
       alert('Email enviado com sucesso!');
