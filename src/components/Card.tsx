@@ -27,18 +27,18 @@ export default function Card({ project }: { project: IProject }) {
       tagCaractLen += tag.length;
 
       if (tagCaractLen >= MAX_CARACT) {
-        renderedTags.push(Tag(`+${tags.length - renderedTags.length}`));
+        renderedTags.push(Tag(`+${tags.length - renderedTags.length}`, tags.length));
         break;
       }
 
-      renderedTags.push(Tag(tag));
+      renderedTags.push(Tag(tag, tags.indexOf(tag)));
     }
 
     return renderedTags;
   };
 
   return (
-    <div className="flex flex-col justify-between max-w-80 rounded overflow-hidden shadow-sm shadow-accent bg-primary">
+    <div key={project.id} className="flex flex-col justify-between max-w-80 rounded overflow-hidden shadow-sm shadow-accent bg-primary">
       <div className="w-[320px] h-[213px] overflow-hidden object-fill">
         <img className="w-full h-full" src={project.image ? project.image : 'https://raw.githubusercontent.com/Jefferson472/bucket/refs/heads/main/portfolio/generic-image.webp'} alt=""/>
       </div>

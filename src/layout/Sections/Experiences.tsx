@@ -19,7 +19,7 @@ export default function Projects() {
           <h2 className="text-4xl font-semibold mb-4 text-center">Experiências</h2>
           <div className="flex flex-col gap-6 mt-8 max-w-[672px] mx-auto">
             {experiences.reverse().map(xp => (
-              <div className="flex gap-3">
+              <div key={xp.id} className="flex gap-3">
                 <div className="hidden sm:flex flex-col items-center">
                   <div className="flex gap-3 items-center min-h-[28px]">
                     <span className="inline-block bg-gray-500 text-white text-xs font-semibold px-2.5 py-0.5 rounded relative">
